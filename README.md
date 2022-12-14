@@ -28,6 +28,12 @@ By using the linear regression model we get the following coefficient:
 
 ![linear_reg](https://user-images.githubusercontent.com/111251560/207669984-908a3dff-8968-48e2-b6cc-93e728b147f6.png)
 
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+- Is the slope of the linear model considered to be zero? Why or why not?
+
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 
 ### Summary of Linear Regression model
 In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. The summary of multiple regression model provides alot of insights about the dataset such as the Min, first Quatile, Median, third Quatile and Max for this analysis te min and max value are (-19.4701) and (18.5849) respectively and teh median is -0.0692. 
