@@ -24,3 +24,5 @@ The MechaCar dataset contains a sample of 50 prototypes measuring the miles per 
 Following formula is used for the Linear regression model of MechaCar_mpg csv file:
 
 > lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data= MechaCar_mpg)
+
+![linear_reg](https://user-images.githubusercontent.com/111251560/207669984-908a3dff-8968-48e2-b6cc-93e728b147f6.png)
