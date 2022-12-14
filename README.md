@@ -25,4 +25,9 @@ Following formula is used for the Linear regression model of MechaCar_mpg csv fi
 
 > lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data= MechaCar_mpg)
 
+By using the linear regression model we get the following coefficient:
+
 ![linear_reg](https://user-images.githubusercontent.com/111251560/207669984-908a3dff-8968-48e2-b6cc-93e728b147f6.png)
+
+
+### Summary of Linear Regression model
