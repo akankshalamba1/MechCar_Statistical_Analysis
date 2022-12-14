@@ -22,7 +22,6 @@ The MechaCar dataset contains a sample of 50 prototypes measuring the miles per 
 ### Linear regression model
 
 Following formula is used for the Linear regression model of MechaCar_mpg csv file:
-
 > lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data= MechaCar_mpg)
 
 By using the linear regression model we get the following coefficient:
@@ -31,3 +30,12 @@ By using the linear regression model we get the following coefficient:
 
 
 ### Summary of Linear Regression model
+In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. The summary of multiple regression model provides alot of insights about the dataset such as the Min, first Quatile, Median, third Quatile and Max for this analysis te min and max value are (-19.4701) and (18.5849) respectively and teh median is -0.0692. 
+
+Following formula is used for the Summary of Linear regression model of MechaCar_mpg csv file:
+> summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data= MechaCar_mpg))
+
+Output of the summary of linear regression model
+
+![linear_reg_summary](https://user-images.githubusercontent.com/111251560/207671331-4b8cd3b5-afa6-4aa0-82b7-24f6004fa2a1.png)
+
