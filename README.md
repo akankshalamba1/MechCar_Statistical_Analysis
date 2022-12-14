@@ -45,3 +45,8 @@ Output of the summary of linear regression model
 
 ![linear_reg_summary](https://user-images.githubusercontent.com/111251560/207671331-4b8cd3b5-afa6-4aa0-82b7-24f6004fa2a1.png)
 
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+- Is the slope of the linear model considered to be zero? Why or why not?
+
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
