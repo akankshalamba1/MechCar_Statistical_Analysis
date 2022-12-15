@@ -114,6 +114,8 @@ After completing the analysis of MechaCar prototype for maximal performance agai
 
 - For design study we will be considering safety rating and maintance as main metrics to compare with competitor
 
+- Hypothesis for the analysis
+
   - Null Hypothesis: Cars with upto date maintance have high safety rating?
   - Alternate Hypothesis: Cars with upto date maintance do not have high safety rating?
 
