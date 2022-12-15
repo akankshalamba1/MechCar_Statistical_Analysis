@@ -85,3 +85,25 @@ Summary based on each lot using groupby is as follows:
 ![lot_summary](https://user-images.githubusercontent.com/111251560/207770910-a3d0fbf0-d464-4174-97e6-009120f476cb.png)
 
 Lot 1 and Lot 2 are both within design specifications and have hnearly the same exact mean and median. Lot 3 shows the most variance and exceeds the manufacturers specs.
+
+## T-Tests on Suspension Coils
+
+Lot 1 and Lot 3 the PSI values are not different from the population mean. However lot 2 the p-value is .347 which means there is evidence that the suspension coil is different from the population mean. All t-tests can be seen below:
+
+### T-test accross all the lots
+
+![T-test_all_colision](https://user-images.githubusercontent.com/111251560/207771585-5582eb74-b37f-4ef1-b2e8-5f79a9416220.png)
+
+Lot 1
+
+![t-test_lot1](https://user-images.githubusercontent.com/111251560/207771624-edb0b591-b0a6-4c87-8bcd-6732e6213617.png)
+
+Lot 2
+
+![t-test_lot2](https://user-images.githubusercontent.com/111251560/207771669-e38c4472-8bde-48c9-a8c1-2bbe24964374.png)
+
+Lot 3
+
+![t-test_lot3](https://user-images.githubusercontent.com/111251560/207771690-4623dbdc-c56f-4b47-92d5-85b73f29ade3.png)
+
+
