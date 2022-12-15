@@ -1,6 +1,8 @@
 # MechCar_Statistical_Analysis
 R-studio and statistics analysis
 
+[MechaCarChallenge.R](MechaCarChallenge.R)
+
 ## Analysis Overview
 
 This analysis is based on an auto company AutosRUs’ newest prototype, the MechaCar, which is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on the data analytics team to review the production data for insights that may help the manufacturing team. 
