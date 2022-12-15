@@ -107,3 +107,14 @@ Lot 3
 ![t-test_lot3](https://user-images.githubusercontent.com/111251560/207771690-4623dbdc-c56f-4b47-92d5-85b73f29ade3.png)
 
 
+### Study Design: MechaCar vs Competition
+After completing the analysis of MechaCar prototype for maximal performance against competitors its important to design other studies to compare MechaCar with competitors such as cost of vehicle, city or highway fuel efficiency, maintence service, maintance cost or safety rating.
+
+- For design study we will be considering safety rating and maintance as main metrics to compare with competitor
+
+  - Null Hypothesis: Cars with upto date maintance have high safety rating?
+  - Alternate Hypothesis: Cars with upto date maintance do not have high safety rating?
+
+- For this statistical analysis we will used correlation test between the safety rating and maintence services
+
+- Random sample of n > 30 MechaCar and their competitors, need to be collected including safety rating, maintance services and maintance cost. Correlation test will be run through RStudio
