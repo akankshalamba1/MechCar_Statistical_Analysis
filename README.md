@@ -47,6 +47,16 @@ Output of the summary of linear regression model
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
+To get 95% of confidence level, the p-value should be compared to alpha = .05 level of significance.
+
+Coeffient:
+
+![coefficienct](https://user-images.githubusercontent.com/111251560/207768099-763218a3-aa74-4511-b67d-a1248031fb0c.png)
+
+vehicle length: 0 < .05 statistically significant, non random amount of variance
+ground clearance: 0 > .05 statistically significant, non-random amount of variance
+
+rest values are more than .05 so have less statistical significant and random amount of variance
 - Is the slope of the linear model considered to be zero? Why or why not?
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
