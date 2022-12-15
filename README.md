@@ -88,7 +88,7 @@ Lot 1 and Lot 2 are both within design specifications and have hnearly the same 
 
 ## T-Tests on Suspension Coils
 
-Lot 1 and Lot 3 the PSI values are not different from the population mean. However lot 2 the p-value is .347 which means there is evidence that the suspension coil is different from the population mean. All t-tests can be seen below:
+From the t-test to compare all lots against the population mean of 1,500 we can see that the sample mean was 1498.78 and the p-value is 0.06028. Although the p-value is low, it is not low enough to reject the null hypothesis that the population's true mean is 1,500 because it did not fall below the significance level of 0.05 (see image below). All t-tests can be seen below:
 
 ### T-test accross all the lots
 
