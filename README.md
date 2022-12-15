@@ -56,7 +56,32 @@ Coeffient:
 vehicle length: 0 < .05 statistically significant, non random amount of variance
 ground clearance: 0 > .05 statistically significant, non-random amount of variance
 
-rest values are more than .05 so have less statistical significant and random amount of variance
+rest values are more than .05 so have less statistical significant and random amount of varianceas.
+
 - Is the slope of the linear model considered to be zero? Why or why not?
+After converting the output of linear regression model we can observe that the slope of the variables are non-zero even if they are close to zero.
+
+Coefficients:
+- vehicle length: 6.267
+- vehicle weight: .001
+- spoiler angle: .069
+- ground clearance: 3.546
+- AWD: -3.411
+
+The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.001(vehicle weight)+.069(spoiler angle)+3.546(ground clearance)-3.411(AWD), which results in a non-zero slope.
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+R-squared is .7149, which is a strong correlation and shows the dataset has effective data However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
+
+## Summary of Statistics on Suspension Coils
+
+Summary of the Suspension Coils of all the Lots is as follows:
+
+![total_summary](https://user-images.githubusercontent.com/111251560/207770646-73f0fcab-48ae-4203-a351-3bc6623d7ccc.png)
+
+Summary based on each lot using groupby is as follows:
+
+![lot_summary](https://user-images.githubusercontent.com/111251560/207770910-a3d0fbf0-d464-4174-97e6-009120f476cb.png)
+
+Lot 1 and Lot 2 are both within design specifications and have hnearly the same exact mean and median. Lot 3 shows the most variance and exceeds the manufacturers specs.
